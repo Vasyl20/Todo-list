@@ -1,0 +1,10 @@
+.bt-addGroup{
+  width: 50px;
+  height: 50px;
+  background-color: chartreuse;
+}
+.group{
+  width: 250px;
+  height: 30px;
+  background-color: cornflowerblue;
+}
