@@ -9,14 +9,14 @@ export class Todo_listComponent implements OnInit {
 
   constructor(private elementRaf:ElementRef) { }
 
-  add_a_group() {
-     var add_a_group = document.getElementById("dir-todo_list-id");
-    //  document.getElementById("dir-todo_list")?.append("<div class='group'></div>");
-
-
-    console.log("2");
+  $scope: btTodoList = function() { 
+    // let string = "<div class='group'></div>" 
+    //  var add_a_group = document.getElementById('dir-todo_list-id')?.nodeValue; 
+    // // document.getElementById("dir-todo_list")?.addEventListener("","<div class='group'></div>"); 
+    // add_a_group?.innerHTML = string; 
+     
+    console.log("2"); 
   }
-
 
   ngOnInit() {
 
