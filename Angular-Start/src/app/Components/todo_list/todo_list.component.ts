@@ -7,16 +7,16 @@ import { asNativeElements, Component, ElementRef, OnInit } from '@angular/core';
 })
 export class Todo_listComponent implements OnInit {
 
-  constructor(private elementRaf:ElementRef) { }
+  constructor() { }
 
-  $scope: btTodoList = function() { 
-    // let string = "<div class='group'></div>" 
-    //  var add_a_group = document.getElementById('dir-todo_list-id')?.nodeValue; 
-    // // document.getElementById("dir-todo_list")?.addEventListener("","<div class='group'></div>"); 
-    // add_a_group?.innerHTML = string; 
+  // $scope: btTodoList = function() { 
+  //   // let string = "<div class='group'></div>" 
+  //   //  var add_a_group = document.getElementById('dir-todo_list-id')?.nodeValue; 
+  //   // // document.getElementById("dir-todo_list")?.addEventListener("","<div class='group'></div>"); 
+  //   // add_a_group?.innerHTML = string; 
      
-    console.log("2"); 
-  }
+  //   console.log("2"); 
+  // }
 
   ngOnInit() {
 
